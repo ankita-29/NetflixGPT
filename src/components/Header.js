@@ -3,8 +3,9 @@ import React from 'react'
 const Header = () => {
   return (
     <div> 
-        <div className='w-52 m-4 absolute bg-gradient-to-b from-black z-10'>
-            <img src="https://cdn.cookielaw.org/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png" alt='logo'/>
+        <div className='absolute bg-gradient-to-b from-black z-10 w-full flex justify-between'>
+            <img src="https://cdn.cookielaw.org/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png" alt='logo' className='w-52 m-4 '/>
+            <button className='bg-red-600 h-12 mt-4 rounded-md text-white p-1 mr-2'>SignOut</button>
         </div>
     </div>
   )
