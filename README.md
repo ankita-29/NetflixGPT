@@ -72,4 +72,35 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # testing 1 commit  by ankitagupta
 <!-- 
 1. Create React app
-2. Configuring tailwind css -->
+2. Configuring tailwind css 
+3. building header component - UI
+3. building routes - sign and browse page
+4. configuring store
+3. Building signin/ sign up functionality
+    - Adding signout button to header
+    - connecting to fireback
+    - Calling auth apis
+    - Restricting routes based on signed in or signed out  
+    - Adding userSlice to store
+    - signin signout functnality using dispatch
+4. Design layout for browse page
+    - UI design
+        - Main vedio section 
+            -video
+            - title
+            - Description
+            - few buttons
+        - Secondary container
+            - n X cardlist
+                - n X cards
+5. building MAinContainer
+    - TMDB registeration
+    - API identification for movie list and video fetch
+    - calling the api
+    - adding the movieSlice to redux store for storing movie info
+    - adding custom hooks
+    - youtube embedding using iframe and setting it to autoplay
+    - finally rending the UI
+6. Secondary container
+
+5. building browse page or landing page
