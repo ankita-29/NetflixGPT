@@ -102,5 +102,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     - youtube embedding using iframe and setting it to autoplay
     - finally rending the UI
 6. Secondary container
+    - popular= movieList
 
 5. building browse page or landing page

@@ -1,7 +1,5 @@
-import React, { useEffect } from 'react'
-import { MovieVideoURL, TMDBOptions } from '../utils/TMDButils'
+
 import { useDispatch, useSelector } from 'react-redux'
-import { addTrailerVideo } from '../utils/movieSlice'
 
 
 const MainContainerVideo = () => {
@@ -9,7 +7,7 @@ const MainContainerVideo = () => {
     const mainmovie=useSelector((store)=>store.movies.mainContainerMovie)
     if(!mainmovie) return
     const {video}= mainmovie
-    console.log(video)
+    //console.log(video)
 
     //const videoKey= useSelector()
   return (
